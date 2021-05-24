@@ -1,0 +1,49 @@
+.list {
+    color: rgb(35, 35, 54);
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.list p {
+    padding: 5px 10px;
+    position: relative;
+}
+
+#x {
+    font-size: 20px;
+}
+
+.dates {
+    padding: 0px;
+}
+
+.dates p {
+    font-size: 10px;
+    color: darkgrey;
+    display: inline;
+}
+
+.list p .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(113, 114, 114);
+}
+
+.list p input {
+    outline: none;
+}
+
+.list p input {
+    background-color: transparent;
+    border: 0;
+    color: rgb(25, 31, 48);
+}
